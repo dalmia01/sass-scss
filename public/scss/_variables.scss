@@ -1,0 +1,16 @@
+$basic-color : white;
+
+:root{
+  --some-color:blue;
+}
+
+
+$colors: (
+  primary: orange,
+  primary-light:lighten(#005DFF,40%),
+  primary-dark:darken(#005DFF,40%)
+);
+
+$padding:15px;
+$borders:15px;
+$desktop:840px;
