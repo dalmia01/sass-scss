@@ -1,0 +1,18 @@
+.scrolltop{
+  background:#f9c49a;padding:50px 100px;letter-spacing: 3px;line-height: 3;
+  p{margin:20px 0px;}
+  strong{margin:20px 0px;}
+  div{margin:20px 0px;}
+  h4{font-size:2em;text-align: center;}
+  
+  .scrolltop_btn{
+    visibility: hidden;cursor: pointer;
+    
+    &.active{visibility: visible;}
+    
+    &:before{
+      display: flex;align-items: center;justify-content: center;font-size:30px;color:#fff;
+      width:50px;height:50px;background:#333;content:'\21E7';position: fixed;bottom:20px;right:20px;border-radius: 50%;
+    }
+  }
+}
